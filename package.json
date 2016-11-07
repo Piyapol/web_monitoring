@@ -1,0 +1,14 @@
+{
+  "name": "web_monitoring",
+  "version": "1.0.0",
+  "description": "web monitoring senior project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Piyapol Raengtip",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^2.3.0"
+  }
+}
