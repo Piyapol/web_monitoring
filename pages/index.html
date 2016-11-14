@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Smart Flowerpot</title>
+  <link rel="icon" href="../images/plant.png" type="image/png" sizes="15x15px">
+
+	<!-- Import Google Icon Font -->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/icon?family=Material+Icons">
+	<!-- Import materialize.css -->
+	<link type="text/css" rel="stylesheet" href="../node_modules/materialize-css/dist/css/materialize.min.css" meadia="screen,projection">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" type="text/css" href="../node_modules/materialize-css/dist/css/flower.css">
+  <!-- Import Material Design Icons -->
+  <link href="../node_modules/mdi/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+  <!-- Morris chart CSS -->
+  <link rel="stylesheet" href="../node_modules/morris.js/morris.css">
+ 
+	<!-- Let browser know website is optimized for mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<header>
+   
+   <nav class="top-nav green">
+    <div class="container">
+      <div class="nav-wrapper green">
+        <a href="#" class="brand-logo">Smart Flowerpot</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Signup</a></li>
+          </ul>
+        </div>
+    </div>
+  </nav>
+
+<!--     <ul id="slide-out" class="side-nav fixed">
+    <li class="logo">
+        <a href="#" id="logo"> <img src="../images/plant.png" alt="logo"></a>
+      </li>
+      
+      <li class="search">
+      <div class="search-wrapper card">
+        <form>
+          <div class="input-field">
+            <input id="search" type="search" required>
+            <label for="search"><i class="material-icons">search</i></label>
+            <i class="material-icons">close</i>
+          </div>
+        </form>
+        </div>
+      </li>
+    <li><a class="waves-effect waves-teal" href="../pages/index.html">Dashboard</a></li>
+      <li><a class="waves-effect waves-teal" href="../pages/light.html">Light sensor</a></li>
+      <li><a class="waves-effect waves-teal" href="../pages/humidity.html">Humidity sensor</a></li>
+      <li><a class="waves-effect waves-teal" href="../pages/temperature.html">Temperature sensor</a></li>
+      <li><a class="waves-effect waves-teal" href="../pages/soil.html">Soil sensor</a></li>
+      <li><a class="waves-effect waves-teal" href="../pages/waterlevel.html">Water level sensor</a></li>
+  </ul> -->
+  <!-- <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+ -->
+    <ul id="nav-mobile" class="side-nav fixed" >
+      <li class="logo">
+        <a href="#" id="logo"> <img src="../images/plant.png" alt="logo"></a>
+      </li>
+      
+      <li class="search">
+      <div class="search-wrapper card">
+        <form>
+          <div class="input-field">
+            <input id="search" type="search" required>
+            <label for="search"><i class="material-icons">search</i></label>
+            <i class="material-icons">close</i>
+          </div>
+        </form>
+        </div>
+      </li>
+
+      <li><a class="waves-effect waves-teal" href="../pages/index.html">Dashboard</a></li>
+      <li><a class="waves-effect waves-teal" href="../pages/light.html">Light sensor</a></li>
+      <li><a class="waves-effect waves-teal" href="../pages/humidity.html">Humidity sensor</a></li>
+      <li><a class="waves-effect waves-teal" href="../pages/temperature.html">Temperature sensor</a></li>
+      <li><a class="waves-effect waves-teal" href="../pages/soil.html">Soil sensor</a></li>
+      <li><a class="waves-effect waves-teal" href="../pages/waterlevel.html">Water level sensor</a></li>
+    </ul>
+    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+
+</header>
+
+<main>
+  <div class="section" id="index">
+    <div class="container">
+      <div class="row">
+        
+      </div>
+    </div>
+    
+  </div>
+  <div class="container">
+    <div class="row">
+      
+    </div>
+  </div>
+
+
+
+
+</main>
+
+<footer class="page-footer green">
+          <div class="footer-copyright">
+            <div class="center">
+              <div class="container">
+                © 2016 Copyright, All rights reserved. 
+            <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
+              </div>
+            </div>
+          </div>
+        </footer>
+            
+	<!-- Import jQuery -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<!-- Import Javascript from materialize.js -->
+	<script type="text/javascript" src="../node_modules/materialize-css/dist/js/materialize.min.js"></script>
+  <!-- Justgage JS -->
+  <script src="../node_modules/justgage/justgage.js"></script>
+  <!-- Morris chart JS  -->
+  <script src="../node_modules/morris.js/morris.min.js"></script>
+  <script src="../node_modules/raphael/raphael.min.js"></script>
+ <!--  <script src="../node_modules/"></script> -->
+ <script> $('.button-collapse').sideNav({
+      menuWidth: 300, // Default is 240
+      edge: 'right', // Choose the horizontal origin
+      closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      draggable: true // Choose whether you can drag to open on touch screens
+    }
+  );</script>
+</body>
+</html>
